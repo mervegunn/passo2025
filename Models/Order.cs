@@ -7,7 +7,7 @@ namespace SportsEcommerceAPI.Models
     {
         public int OrderId { get; set; }
         public int UserId { get; set; }
-        public DateTime OrderDate { get; set; } = DateTime.Now;
+        public DateTime OrderDate { get; set; } = DateTime.UtcNow;
         public decimal Total { get; set; }
 
         [ForeignKey("UserId")]
