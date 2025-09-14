@@ -1,0 +1,8 @@
+{
+  "sdk": {
+    "version": "9.0.304"
+  },
+  "msbuild-sdks": {
+    "Microsoft.AspNetCore.Sdk": "9.0.0"
+  }
+}
