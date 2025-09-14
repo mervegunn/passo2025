@@ -25,7 +25,7 @@ A simple sports e-commerce API built with .NET 9.0, PostgreSQL, and Docker.
 
 2. The API will be available at:
    - **API**: http://localhost:8080
-   - **Swagger UI**: http://localhost:8080/swagger
+   - **Swagger UI**: http://localhost:8080/swagger/index.html
 
 That's it! The database will be automatically created and seeded with sample data.
 
