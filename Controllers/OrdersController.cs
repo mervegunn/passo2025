@@ -38,7 +38,7 @@ namespace SportsEcommerceAPI.Controllers
             var order = new Order
             {
                 UserId = userId,
-                OrderDate = DateTime.Now,
+                OrderDate = DateTime.UtcNow,
                 Total = request.Total
             };
 
