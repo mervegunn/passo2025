@@ -18,18 +18,12 @@ A simple sports e-commerce API built with .NET 9.0, PostgreSQL, and Docker.
 
 ### Running the Application
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd passo2025
-   ```
-
-2. Start the application:
+1. Start the application:
    ```bash
    docker-compose up --build
    ```
 
-3. The API will be available at:
+2. The API will be available at:
    - **API**: http://localhost:8080
    - **Swagger UI**: http://localhost:8080/swagger
 
@@ -78,14 +72,14 @@ The API uses JWT (JSON Web Tokens) for authentication. Some endpoints are public
    ```bash
    curl -X POST http://localhost:8080/api/auth/register \
      -H "Content-Type: application/json" \
-     -d '{"fullName": "John Doe", "email": "john@example.com", "password": "password123"}'
+     -d '{"fullName": "Michael Johnson", "email": "michael@example.com", "password": "password123"}'
    ```
 
 2. **Login:**
    ```bash
    curl -X POST http://localhost:8080/api/auth/login \
      -H "Content-Type: application/json" \
-     -d '{"email": "john@example.com", "password": "password123"}'
+     -d '{"email": "michael@example.com", "password": "password123"}'
    ```
 
 3. **Use the token in protected endpoints:**
@@ -109,11 +103,11 @@ The API uses JWT (JSON Web Tokens) for authentication. Some endpoints are public
 The application comes pre-loaded with:
 
 ### Users
-- Merve Gun (merve@example.com)
-- Ersel Ekmen (ersel@example.com)
-- Ikra Orhan (ikra@example.com)
-- Deniz Karabag (deniz@example.com)
-- Eylul Kizil (eylul@example.com)
+- Sarah Williams (sarah@example.com)
+- David Brown (david@example.com)
+- Jessica Davis (jessica@example.com)
+- Christopher Wilson (chris@example.com)
+- Amanda Taylor (amanda@example.com)
 
 ### Categories
 - Football

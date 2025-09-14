@@ -96,11 +96,11 @@ namespace SportsEcommerceAPI.Data
             if (!_context.Users.Any())
             {
                 _context.Users.AddRange(
-                    new User { FullName = "Merve Gun", Email = "merve@example.com", Password = "merve123!" },
-                    new User { FullName = "Ersel Ekmen", Email = "ersel@example.com", Password = "ersel456@" },
-                    new User { FullName = "Ikra Orhan", Email = "ikra@example.com", Password = "ikra789#" },
-                    new User { FullName = "Deniz Karabag", Email = "deniz@example.com", Password = "denizABC$" },
-                    new User { FullName = "Eylul Kizil", Email = "eylul@example.com", Password = "eylulXYZ%" }
+                    new User { FullName = "Sarah Williams", Email = "sarah@example.com", Password = "sarah123!" },
+                    new User { FullName = "David Brown", Email = "david@example.com", Password = "david456@" },
+                    new User { FullName = "Jessica Davis", Email = "jessica@example.com", Password = "jessica789#" },
+                    new User { FullName = "Christopher Wilson", Email = "chris@example.com", Password = "chrisABC$" },
+                    new User { FullName = "Amanda Taylor", Email = "amanda@example.com", Password = "amandaXYZ%" }
                 );
 
                 await _context.SaveChangesAsync();
